@@ -20,8 +20,7 @@ task main()
 
 	while(mode == 1)
 	{
-		if(SensorValue(color) == 5)
-		{
+
 			count = 1;
 			resetMotorEncoder(colorMotor);
 			while(getMotorEncoder(colorMotor) < 90 && count == 1 && getMotorEncoder(colorMotor) > -90)
