@@ -20,6 +20,8 @@ task main()
 
 	while(mode == 1)
 	{
+		if(SensorValue(button) == 1)
+		{
 
 			count = 1;
 			resetMotorEncoder(colorMotor);
